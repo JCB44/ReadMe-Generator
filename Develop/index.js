@@ -8,8 +8,44 @@ const { writeFile } = require("fs").promises;
 const questions = () => {return inquirer.prompt([
     {
         type: 'input',
-        name: 'name',
-        message: 'What is your name?',
+        name: 'title',
+        message: 'What is your project title?',
+      },
+      {
+        type: 'input',
+        name: 'description',
+        message: 'Give a description of your porject',
+      },
+      {
+        type: 'input',
+        name: 'installation',
+        message: 'installation????',
+      },
+      {
+        type: 'input',
+        name: 'usage',
+        message: 'usage????'
+      },
+      {
+        type: 'input',
+        name: 'credit',
+        message: 'credit????'
+      },
+      {
+        type: 'list',
+        name: 'license',
+        message: 'Choose a License you want to use',
+        choices: ["1", "2", "3", "4"] ,
+      },
+      {
+        type: 'input',
+        name: 'tests',
+        message: 'tests????'
+      },
+      {
+        type: 'input',
+        name: 'questions',
+        message: 'questions????'
       },
 ]);
 }
