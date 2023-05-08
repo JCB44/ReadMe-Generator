@@ -1,6 +1,6 @@
-# Title &nbsp;
+# My title! &nbsp;
 ## Description
-Description &nbsp;
+A README generator &nbsp;
 <br>
 ## Table of Contents
 
@@ -12,13 +12,13 @@ Description &nbsp;
 - [Questions](#questions)
 <br>
 ## Installation
-Inquirer &nbsp;
+inquirer &nbsp;
 <br>
 ## Usage
-run npm i, then node index.js &nbsp;
+running npm i and node index.js then filling out the promts! &nbsp;
 <br>
 ## Credit
-n/a &nbsp;
+me :) &nbsp;
 <br>
 
 
@@ -27,5 +27,5 @@ n/a &nbsp;
 n/a
 <br>
 ## Questions
-If you have any questions or would like to report an error contact me at n/a &nbsp;
+If you have any questions or would like to report an error contact me at josh@gmail.com &nbsp;
 
