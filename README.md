@@ -1,6 +1,6 @@
 # ReadMe-Generator &nbsp;
 
-## Description
+## Description <br>
 This is an console based aplication to quickly make and generate a readme for your projects! &nbsp;
 <br>
 ## Table of Contents
