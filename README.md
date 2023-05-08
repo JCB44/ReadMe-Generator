@@ -12,7 +12,7 @@ This is an console based aplication to quickly make and generate a readme for yo
 - [Tests](#tests)
 - [Questions](#questions)
 <br>
-## Installation
+## Installation <br>
 Inquirer 6.3.1 is required, run npm i before running node index.js &nbsp;
 <br>
 ## Usage
