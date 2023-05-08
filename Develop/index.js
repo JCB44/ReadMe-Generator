@@ -1,4 +1,3 @@
-// TODO: Include packages needed for this application
 const generateMarkdown = require("./utils/generateMarkdown");
 const inquirer = require('inquirer');
 const fs = require('fs');
@@ -19,33 +18,33 @@ const questions = () => {return inquirer.prompt([
       {
         type: 'input',
         name: 'installation',
-        message: 'installation????',
+        message: 'What Instalations are required?',
       },
       {
         type: 'input',
         name: 'usage',
-        message: 'usage????'
+        message: 'Provide a guide to how your project can be used'
       },
+      // {
+      //   type: 'list',
+      //   name: 'license',
+      //   message: 'Choose a License you want to use',
+      //   choices: ["1", "2", "3", "4"] ,
+      // },
       {
         type: 'input',
         name: 'credit',
-        message: 'credit????'
-      },
-      {
-        type: 'list',
-        name: 'license',
-        message: 'Choose a License you want to use',
-        choices: ["1", "2", "3", "4"] ,
+        message: 'Enter the contributors to your project'
       },
       {
         type: 'input',
         name: 'tests',
-        message: 'tests????'
+        message: 'What tests are there and how do you run them?'
       },
       {
         type: 'input',
         name: 'questions',
-        message: 'questions????'
+        message: 'Provide an emial, discord, phone number. Any contact info for questions'
       },
 ]);
 }

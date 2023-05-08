@@ -17,6 +17,15 @@ function generateMarkdown(data) {
 ## Description
 ${data.description} &nbsp;
 <br>
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+<br>
 ## Installation
 ${data.installation} &nbsp;
 <br>
@@ -26,21 +35,23 @@ ${data.usage} &nbsp;
 ## Credit
 ${data.credit} &nbsp;
 <br>
-## License
-${data.license} &nbsp;
-<br>
+
+
+
 ## Tests
 ${data.tests}
 <br>
 ## Questions
-${data.questions} &nbsp;
+If you have any questions or would like to report an error contact me at ${data.questions} &nbsp;
 
 `;
 // ## Contributing
 // ${data.contributing} &nbsp;
 // <br>
 }
-
+// ## License
+// ${data.license} &nbsp;
+// <br></br>
 
 
 module.exports = generateMarkdown;

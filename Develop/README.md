@@ -1,22 +1,31 @@
-# title &nbsp;
+# Title &nbsp;
 ## Description
-lorem azipu &nbsp;
+Description &nbsp;
+<br>
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 <br>
 ## Installation
-nope &nbsp;
+Inquirer &nbsp;
 <br>
 ## Usage
-you do us it &nbsp;
+run npm i, then node index.js &nbsp;
 <br>
 ## Credit
-me &nbsp;
+n/a &nbsp;
 <br>
-## License
-2 &nbsp;
-<br>
+
+
+
 ## Tests
-many
+n/a
 <br>
 ## Questions
-also many &nbsp;
+If you have any questions or would like to report an error contact me at n/a &nbsp;
 
